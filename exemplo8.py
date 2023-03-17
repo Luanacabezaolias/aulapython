@@ -1,3 +1,3 @@
 Preço = int(input("Digite o preço: "))
-final = Preço - (100/10)
+final = Preço - PreÇo * (10/100)
 print(f'o preço final é: {final}')
