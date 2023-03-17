@@ -1,4 +1,4 @@
-peso = int(input("Digite o seu peso: "))
-altura = int(input("digite sua altura: "))
+peso = float(input("Digite o seu peso: "))
+altura = float(input("digite sua altura: "))
 IMC = peso/altura**2
-print(f'imc é: {IMC}')
+print(f'imc é: {round(IMC,2)}')
